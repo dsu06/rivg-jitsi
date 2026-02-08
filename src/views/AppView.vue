@@ -51,7 +51,6 @@ const jitsiOptions = computed(() => ({
         enableWelcomePage: false,
         enableClosePage: false,
         disableProfile: false,
-        recordingEnabled: true
     },
     interfaceConfigOverwrite: {
         DEFAULT_LOGO_URL: rivgLogo,
@@ -80,7 +79,7 @@ const jitsiOptions = computed(() => ({
         // Минимальная тулбар
         TOOLBAR_BUTTONS: [
             'microphone', 'camera', 'hangup', 'desktop', 'fullscreen',
-            'fodeviceselection', 'chat', 'settings', 'raisehand'
+            'fodeviceselection', 'chat', 'settings', 'raisehand', 'recording', 'invite', 'videoquality', 'videobackgroundblur'
         ],
     },
 }));
