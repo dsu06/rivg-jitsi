@@ -21,7 +21,7 @@ export interface JitsiAPI {
   on: (event: string, handler: () => void) => void
   off: (event: string, handler: () => void) => void
   dispose: () => void
-  addListener: (event: string, handler: () => void) => void
+  addListener: (event: string, handler: (data: { muted: boolean, on: boolean }) => void) => void
   removeListener: (event: string, handler: () => void) => void
   [key: string]: unknown
 }

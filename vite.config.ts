@@ -15,5 +15,6 @@ export default defineConfig({
             '@': fileURLToPath(new URL('./src', import.meta.url))
         },
     },
-    envPrefix: 'RIVG_'
+    envPrefix: 'RIVG_',
+    base: '/'
 });

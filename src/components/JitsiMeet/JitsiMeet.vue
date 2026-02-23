@@ -46,7 +46,7 @@ const embedJitsiWidget = async () => {
         const jitsiOptions: JitsiOptions = {
             ...options.value,
             roomName,
-            parentNode: jitsiContainer.value
+            parentNode: jitsiContainer.value,
         };
 
         // Создаем новый экземпляр
